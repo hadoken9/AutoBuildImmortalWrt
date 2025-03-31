@@ -43,6 +43,7 @@ PACKAGES="$PACKAGES luci-i18n-watchcat-zh-cn"
 PACKAGES="$PACKAGES luci-proto-wireguard"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES openssh-sftp-server"
+PACKAGES="$PACKAGES zoneinfo-asia"
 PACKAGES="$PACKAGES etherwake"
 # 增加几个必备组件 方便用户安装iStore
 #PACKAGES="$PACKAGES fdisk"
