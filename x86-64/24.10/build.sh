@@ -45,6 +45,8 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES zoneinfo-asia"
 PACKAGES="$PACKAGES etherwake"
 PACKAGES="$PACKAGES kmod-wireguard"
+PACKAGES="$PACKAGES kmod-nft-socat"
+PACKAGES="$PACKAGES kmod-nft-tproxy"
 # 增加几个必备组件 方便用户安装iStore
 #PACKAGES="$PACKAGES fdisk"
 #PACKAGES="$PACKAGES script-utils"
