@@ -37,7 +37,7 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES zoneinfo-asia"
 PACKAGES="$PACKAGES etherwake"
 PACKAGES="$PACKAGES kmod-wireguard"
-PACKAGES="$PACKAGES kmod-nft-socat"
+PACKAGES="$PACKAGES kmod-nft-socket"
 PACKAGES="$PACKAGES kmod-nft-tproxy"
 
 # 判断是否需要编译 Docker 插件
