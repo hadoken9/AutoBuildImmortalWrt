@@ -27,17 +27,9 @@ PACKAGES=""
 PACKAGES="$PACKAGES curl"
 #PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-# 服务——FileBrowser 用户名admin 密码admin
-#PACKAGES="$PACKAGES luci-i18n-filebrowser-go-zh-cn"
-#PACKAGES="$PACKAGES luci-app-argon-config"
-#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
-#PACKAGES="$PACKAGES luci-app-openclash"
 PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-zerotier-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-vlmcsd-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-watchcat-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
@@ -47,10 +39,6 @@ PACKAGES="$PACKAGES etherwake"
 PACKAGES="$PACKAGES kmod-wireguard"
 PACKAGES="$PACKAGES kmod-nft-socat"
 PACKAGES="$PACKAGES kmod-nft-tproxy"
-# 增加几个必备组件 方便用户安装iStore
-#PACKAGES="$PACKAGES fdisk"
-#PACKAGES="$PACKAGES script-utils"
-#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
