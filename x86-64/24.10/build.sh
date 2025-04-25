@@ -40,6 +40,8 @@ PACKAGES="$PACKAGES etherwake"
 PACKAGES="$PACKAGES kmod-wireguard"
 PACKAGES="$PACKAGES kmod-nft-socket"
 PACKAGES="$PACKAGES kmod-nft-tproxy"
+PACKAGES="$PACKAGES coreutils"
+PACKAGES="$PACKAGES coreutils-base64"
 
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
