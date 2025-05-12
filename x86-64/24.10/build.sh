@@ -26,7 +26,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - 开始编译..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES nano"
-#PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 #24.10
 PACKAGES="$PACKAGES luci-i18n-package-manager-zh-cn"
